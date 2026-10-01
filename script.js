@@ -18,6 +18,6 @@ document.getElementById("contactForm").addEventListener("submit",e=>{
   const data=new FormData(e.target);
   const subject=encodeURIComponent("Selva Innovation Project Enquiry");
   const body=encodeURIComponent(`Name: ${data.get("name")}\nEmail: ${data.get("email")}\n\nProject details:\n${data.get("message")}`);
-  window.location.href=`mailto:hello@selvainnovation.com?subject=${subject}&body=${body}`;
+  window.location.href=`mailto:selvainnovation2026@gmail.com?subject=${subject}&body=${body}`;
   document.getElementById("formMsg").textContent="Opening your email app...";
 });
